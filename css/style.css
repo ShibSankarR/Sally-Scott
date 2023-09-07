@@ -1,0 +1,476 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Black.otf')  format('opentype'),
+	     url('../fonts/Avenir-Black.woff') format('woff'), url('../fonts/Avenir-Black.ttf')  format('truetype'), url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('../fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Book.otf')  format('opentype'),
+	     url('../fonts/Avenir-Book.woff') format('woff'), url('../fonts/Avenir-Book.ttf')  format('truetype'), url('../fonts/Avenir-Book.svg#Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-BookOblique';
+  src: url('../fonts/Avenir-BookOblique.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-BookOblique.otf')  format('opentype'),
+	     url('../fonts/Avenir-BookOblique.woff') format('woff'), url('../fonts/Avenir-BookOblique.ttf')  format('truetype'), url('../fonts/Avenir-BookOblique.svg#Avenir-BookOblique') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url('../fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Light.otf')  format('opentype'),
+	     url('../fonts/Avenir-Light.woff') format('woff'), url('../fonts/Avenir-Light.ttf')  format('truetype'), url('../fonts/Avenir-Light.svg#Avenir-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-LightOblique';
+  src: url('../fonts/Avenir-LightOblique.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-LightOblique.otf')  format('opentype'),
+	     url('../fonts/Avenir-LightOblique.woff') format('woff'), url('../fonts/Avenir-LightOblique.ttf')  format('truetype'), url('../fonts/Avenir-LightOblique.svg#Avenir-LightOblique') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('../fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Medium.otf')  format('opentype'),
+	     url('../fonts/Avenir-Medium.woff') format('woff'), url('../fonts/Avenir-Medium.ttf')  format('truetype'), url('../fonts/Avenir-Medium.svg#Avenir-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('../fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Roman.otf')  format('opentype'),
+	     url('../fonts/Avenir-Roman.woff') format('woff'), url('../fonts/Avenir-Roman.ttf')  format('truetype'), url('../fonts/Avenir-Roman.svg#Avenir-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella';
+  src: url('../fonts/MADECoachella.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella.otf')  format('opentype'),
+	     url('../fonts/MADECoachella.woff') format('woff'), url('../fonts/MADECoachella.ttf')  format('truetype'), url('../fonts/MADECoachella.svg#MADECoachella') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella-Black';
+  src: url('../fonts/MADECoachella-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella-Black.otf')  format('opentype'),
+	     url('../fonts/MADECoachella-Black.woff') format('woff'), url('../fonts/MADECoachella-Black.ttf')  format('truetype'), url('../fonts/MADECoachella-Black.svg#MADECoachella-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella-Bold';
+  src: url('../fonts/MADECoachella-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella-Bold.otf')  format('opentype'),
+	     url('../fonts/MADECoachella-Bold.woff') format('woff'), url('../fonts/MADECoachella-Bold.ttf')  format('truetype'), url('../fonts/MADECoachella-Bold.svg#MADECoachella-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella-Light';
+  src: url('../fonts/MADECoachella-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella-Light.otf')  format('opentype'),
+	     url('../fonts/MADECoachella-Light.woff') format('woff'), url('../fonts/MADECoachella-Light.ttf')  format('truetype'), url('../fonts/MADECoachella-Light.svg#MADECoachella-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella-Medium';
+  src: url('../fonts/MADECoachella-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella-Medium.otf')  format('opentype'),
+	     url('../fonts/MADECoachella-Medium.woff') format('woff'), url('../fonts/MADECoachella-Medium.ttf')  format('truetype'), url('../fonts/MADECoachella-Medium.svg#MADECoachella-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADECoachella-Thin';
+  src: url('../fonts/MADECoachella-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/MADECoachella-Thin.otf')  format('opentype'),
+	     url('../fonts/MADECoachella-Thin.woff') format('woff'), url('../fonts/MADECoachella-Thin.ttf')  format('truetype'), url('../fonts/MADECoachella-Thin.svg#MADECoachella-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Avenir-Roman' !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+html * {
+	outline:none;
+}
+ol, ul, li {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration:none;
+}
+a:hover, a:focus{
+	text-decoration:none !important;
+	outline:none !important;	
+}
+outline {
+	border:0;
+}
+
+/*=== Header ===*/
+
+.logo-area img {
+	width: 40%;
+	margin-bottom: -5px;
+}
+.logo-area, .logo-area a {
+	padding: 0 !important;
+}
+.menu li a {
+	padding: 32px 20px 20px !important;
+	display: block;
+	color: #bcbcbc;
+	font-size: 15px;
+}
+.menu li a:last-child {
+	padding-right: 0 !important;
+}
+.menu li a:hover {
+	color: #0e1c40 !important;
+}
+.header {
+	background: #fff;
+	border-top: 1px solid #c9cacb;
+	border-bottom: 1px solid #c9cacb;
+	position: sticky;
+	top: 0;
+	z-index: 99999;
+}
+
+
+
+/*===== Banner =====*/
+
+.banner-bg{background-size:cover; background-image:url(../image/banner-bg.jpg); background-repeat:no-repeat; background-position-x:0; background-position-y:0;}
+
+.banner {
+    position: relative;
+}
+.typewriter-text h1 a {
+	color: #0e1c40;
+	font-size: 40px;
+}
+.banner-image{width:80%;}
+.banner-content .banner-image img { width:100%;}
+.typewriter-text {
+	position: absolute;
+	bottom: 10%;
+	/*left: 14.5%;*/
+}
+.roated-text {
+	font-size: 22px;
+	position: absolute;
+	color: #fff;
+	transform: rotate(90deg);
+	top: 35%;
+	right: -114px;
+}
+
+/*====== About =======*/
+
+
+.about-sec {
+	padding: 100px 0 0;
+	position: relative;
+}
+.site-title h4 {
+	color: #eb8f1d;
+	font-size: 24px;
+	font-family: 'Avenir-Light';
+}
+.site-title {
+	width: 50%;
+}
+.page-content h2 {
+	font-family: 'MADECoachella';
+	color: #0f1d41;
+	line-height: 45px;
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+.page-content p {
+	font-size: 16px;
+	color: #828488;
+	line-height: 24px;
+	font-family: 'Avenir-Light';
+	margin-bottom: 10px;
+}
+.site-btn {
+	margin: 50px 0;
+}
+.site-btn a {
+	padding: 10px 25px;
+	background: rgba(0,0,0,0);
+	border: 2px solid #c37323;
+	color: #c37323;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.site-btn a:hover {
+	color: #fff;
+    border: 2px solid #c37323;
+	box-shadow: inset 180px 0 0 #c37323;
+    transition:0.5s all ease-in-out;
+	-moz-transition:0.5s all ease-in-out;
+	-webkit-transition:0.5s all ease-in-out;
+	-ms-transition:0.5s all ease-in-out;
+	-o-transition:0.5s all ease-in-out;
+}
+
+/*======= Services =======*/
+
+.service-con p {
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.service-con p::after {
+	position: absolute;
+	content: "";
+	background: #d8d9da;
+	width: 290px;
+	height: 1px;
+	bottom: -40px;
+	left: 0;
+}
+.service-con p:last-child:after {
+	display: none;
+}
+/*======= Testimonials =======*/
+
+.testimonials {
+	padding: 50px 0 50px;
+	position: relative;
+}
+#testi {
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.testimonials .site-title h4 {
+	color: #fff;
+}
+.testi-slider .item p {
+	color: #fff;
+	font-size: 16px;
+	width: 85%;
+}
+.testi-slider .item h4 {
+	color: #fff;
+	font-family: 'MADECoachella';
+	font-size: 20px;
+	margin: 100px 0 10px 0;
+	position: relative;
+}
+.testi-slider .item h5 {
+	color: #fff;
+    font-size: 15px;
+}
+.testi-slider .item h4::before {
+	position: absolute;
+	content: "";
+	background: #d8d9da;
+	width: 290px;
+	height: 1px;
+	top: -30px;
+	left: 0;
+}
+.testi-slider .owl-dots .owl-dot.active span, .testi-slider .owl-dots .owl-dot:hover span {
+	background: #fff !important;
+}
+.testi-slider .owl-dots .owl-dot span {
+	width: 12px !important;
+	height: 12px !important;
+	margin: 5px 7px;
+	background: rgba(0,0,0,0) !important;
+	border: 1px solid #fff !important;
+}
+.testi-slider .owl-nav.disabled + .owl-dots {
+	margin-top: 10px;
+	position: absolute;
+	transform: rotate(90deg);
+	top: 40px;
+	right: -50px;
+}
+/*========= Ethos =========*/
+
+.ethos-sec {
+	padding: 100px 0 50px;
+	position: relative;
+}
+.ethos-sec:after {
+    content: "";
+	width: 1px;
+	height: 100%;
+	background: #dfe0e1;
+	position: absolute;
+	left: 30.5%;
+    top: 0;
+}
+.ethos-con ul li a {
+	font-size: 24px;
+	font-family: 'MADECoachella';
+	color: #0f1d41;
+}
+/*
+.ethos-con ul li a:hover {
+	color: #eb8f1d;
+}
+*/
+.ethos-con ul {
+	margin-bottom: 60px;
+}
+/*====== contact ======*/
+
+.footer-logo img {
+	width: 100%;
+}
+.con-deatails ul {
+	float: left;
+}
+.con-deatails ul li a {
+	color: #091f40;
+	font-size: 24px;
+}
+.con-deatails ul li a:hover {
+	color: #eb8f1d;
+}
+.social img {
+	width: 10%;
+	float: right;
+}
+#contact {
+	margin-top: 180px;
+}
+.footer-logo {
+	position: relative;
+	margin-bottom: 30px;
+}
+.con-deatails {
+	position: absolute;
+	width: 100%;
+	bottom: 30px;
+}
+.field {
+	position: relative;
+}
+.field input[type="text"], .field input[type="tel"], .field input[type="email"], .field textarea {
+	width: 100%;
+	padding: 15px 35px 15px 15px;
+	margin-bottom: 10px;
+	background: #f8faf9;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	color: #000;
+}
+.icon img {
+	width: 20px;
+	position: absolute;
+	top: 18px;
+	right: 30px;
+}
+
+.field input[type="submit"] {
+	margin: 30px 0;
+	padding: 10px 50px;
+	background: rgba(0,0,0,0);
+	border: 2px solid #c37323;
+	color: #c37323;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.field input[type="submit"]:hover {
+	color: #fff;
+    border: 2px solid #c37323;
+	box-shadow: inset 180px 0 0 #c37323;
+    transition:0.5s all ease-in-out;
+	-moz-transition:0.5s all ease-in-out;
+	-webkit-transition:0.5s all ease-in-out;
+	-ms-transition:0.5s all ease-in-out;
+	-o-transition:0.5s all ease-in-out;
+}
+
+.field input[type="text"] {
+	background: #f8faf9 url(../image/user.png);
+	background-repeat: no-repeat;
+	background-position: 98% 12px;
+	background-size: 20px;
+}
+.field input[type="email"] {
+	background: #f8faf9 url(../image/message.png);
+	background-repeat: no-repeat;
+	background-position: 98% 18px;
+	background-size: 20px;
+}
+
+.contact-part {
+	position: relative;
+}
+/*
+.contact-part:before {
+    content: "";
+	width: 100%;
+	height: 1px;
+	background: #dfe0e1;
+	position: absolute;
+	left: 30.5%;
+    top: 0;
+}
+*/
+
+
+
+
+
+
